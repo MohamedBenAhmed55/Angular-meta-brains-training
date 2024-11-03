@@ -7,6 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { SignupAuthModule } from './signup-auth/signup-auth.module';
+import { ContactComponent } from './contact/contact.component';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +16,8 @@ import { SignupAuthModule } from './signup-auth/signup-auth.module';
     HomeComponent,
     AboutComponent,
     PrivacyComponent,
+    ContactComponent,
+    UserComponent,
   ],
   imports: [
     BrowserModule,
