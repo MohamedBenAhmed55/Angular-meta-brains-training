@@ -9,6 +9,7 @@ import { PrivacyComponent } from './privacy/privacy.component';
 import { SignupAuthModule } from './signup-auth/signup-auth.module';
 import { ContactComponent } from './contact/contact.component';
 import { UserComponent } from './user/user.component';
+import { TodoAppComponent } from './todo-app/todo-app.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { UserComponent } from './user/user.component';
     PrivacyComponent,
     ContactComponent,
     UserComponent,
+    TodoAppComponent,
   ],
   imports: [
     BrowserModule,

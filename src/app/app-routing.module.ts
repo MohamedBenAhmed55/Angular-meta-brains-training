@@ -5,6 +5,7 @@ import { PrivacyComponent } from './privacy/privacy.component';
 import { ContactComponent } from './contact/contact.component';
 import { UserComponent } from './user/user.component';
 import { HomeComponent } from './home/home.component';
+import { TodoAppComponent } from './todo-app/todo-app.component';
 
 const routes: Routes = [
   {path:'', component:HomeComponent},
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path:'privacy', component:PrivacyComponent},
   {path:'contact', component:ContactComponent},
   {path:'user/:name', component:UserComponent},
+  {path:'todo', component:TodoAppComponent},
 
 ];
 
